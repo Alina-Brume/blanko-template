@@ -1,0 +1,49 @@
+.footer {
+    background-color: var(--primary);
+    height: 330px;
+}
+
+.footer__wrapper {
+    margin: 0 auto;
+    max-width: var(--max-width);
+    padding: 0 var(--layout-padding);
+    height: 100%;
+}
+
+.footer__logo--get {
+    height: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.footer__logo--links {
+    height: 75px;
+    color: var(--tertiary);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.footer__logo--links--span {
+    display: flex;
+    gap: 16px;
+}
+
+.footer__copyright {
+    color: var(--tertiary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.footer__copyright--contact {
+    display: flex;
+    gap: 12px;
+}
+
+.footer__copyright--contact .text-color {
+color: var(--secondary)
+}

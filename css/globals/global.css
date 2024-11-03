@@ -1,0 +1,21 @@
+body, html {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+:root {
+    --primary: #000000;
+    --secondary: #FF7143;
+    --tertiary: #ffffff;
+    --bg-light: #FDE7DA;
+    --max-width: 1440px;
+    --layout-padding: 80px;
+}
+
+
+

@@ -1,0 +1,135 @@
+.header {
+    height: 815px;
+    background-color: var(--secondary);
+}
+
+.header__menu__wrapper {
+    background-color: var(--primary);
+    height: 80px;
+}
+
+.header__menu {
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 0px var(--layout-padding);
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.header__logo {
+    border-right: 1px solid rgba(255, 255, 255, 0.16);
+    padding-right: 32px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header__nav {
+  padding: 0 32px;
+  border-right: 1px solid rgba(255, 255, 255, 0.16);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.header__nav--email {
+    background-color: rgba(255, 255, 255, 0.12);
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: var(--tertiary);
+}
+
+.header__nav--links{
+    color: var(--tertiary);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header__nav--buttons {
+    padding-left: 32px;
+    color: var(--tertiary);
+    gap: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.header__info {
+    height: calc(100% - 80px);
+    display: flex;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--layout-padding);
+}
+
+
+.header__img {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.header__img--mobile {
+    position: absolute;
+    right: -8px;
+    top: -78px;
+}
+
+.header__text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.header__text--wrapper {
+    height: 530px;
+    width: 100%;
+    padding: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__text--heading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.header__text--heading h1 {
+font-size: 72px;
+margin: 0;
+}
+
+.header__text--buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.header__text--ranks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 368px;
+ }
+
+ .header__text--ranks q {
+    text-align: center;
+    font-weight: 700;
+ }
+
+ .header__text--stars {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }

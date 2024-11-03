@@ -1,0 +1,8 @@
+.text-xs {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.60);
+ }
+
+ .text-secondary {
+    color: var(--secondary)
+ }

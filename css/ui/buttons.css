@@ -1,0 +1,28 @@
+.btn {
+    background-color: var(--secondary);
+    padding: 12px 32px;
+    border-radius: 6px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn--lg {
+    padding: 20px 32px;
+}
+
+.btn--black {
+   background-color: var(--primary);
+   color: var(--tertiary);
+}
+
+.btn--white {
+    background-color: var(--tertiary);
+    color: var(--primary);
+ }
+
+ .btn--xl {
+    width: 100%;
+    padding: 20px 0;
+ }
